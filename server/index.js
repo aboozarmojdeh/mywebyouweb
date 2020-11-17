@@ -51,6 +51,51 @@ app.post('/questions',async(req,res)=>{
     }
 });
 
+//GET ALL QUESTION
+app.get('/questions',async (req,res)=>{
+    try {
+      const allQuestions=await pool.query('SELECT * FROM questions');
+        res.json(allTodos.rows)
+        
+    } catch (err) {
+        console.error(err.message)
+    }
+});
+
+//GET A QUESTION
+
+app.get('/questions/:id',async (req,res)=>{
+    // console.log(req.params)
+    const {id}=req.params;
+    const question=await pool.query('SELECT * FROM questions WHERE (question_id)=$1',[id]);
+    res.json(question.rows[0])
+});
+
+//UPDATE A QUESTION
+app.put('/questions/:id',async (req,res)=>{
+    try {
+        const {id}=req.params;
+        const {email,question,answer}=req.body;
+        const updatedQuestion=await pool.query("UPDATE questions SET email=$1,question=$2, answer=$3 WHERE question_id=$4",[email,question,answer,id]);    
+        res.json("todo updated successfully!!!! Hurray!")
+    } catch (err) {
+        console.error(err.message)
+    }
+    
+});
+
+//Delete a question
+
+app.delete('/questions/:id',async (req,res)=>{
+    try {
+        const {id}=req.params;
+        const deletedQuestion=await pool.query("DELETE FROM questions WHERE question_id=$1",[id]);
+        res.json("Question deleted successfully");
+        
+    } catch (err) {
+        console.error(err.message)
+    }
+});
 
 app.listen(5000,()=>{
     console.log('app is listening to PORT 5000')
