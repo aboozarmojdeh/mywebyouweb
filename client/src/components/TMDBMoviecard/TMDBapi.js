@@ -1,0 +1,1 @@
+export const TMDBapi='182887094cfa868db25d8f68a0b2cccc';

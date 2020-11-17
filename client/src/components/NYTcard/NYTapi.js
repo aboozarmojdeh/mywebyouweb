@@ -1,0 +1,1 @@
+export const NYTapi='vUGB3KHjxfFZrPxiwuldUctAHd212wd4';

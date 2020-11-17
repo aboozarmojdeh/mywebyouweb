@@ -1,0 +1,86 @@
+.new-card{
+    
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1rem;
+    border-radius: 1.5rem;
+    border-color: rgba(238, 237, 237, 0.438);
+    box-shadow: 5px 8px 10px #80808033;
+    
+}
+.new-container{
+    padding:0;
+    margin:0 !important;
+}
+.card-1 {
+    background: linear-gradient(to right, #ffffff 50%, rgba(241, 224, 190, 0.507));
+/* height:50px; */
+}
+ 
+
+
+.card-2 .row {
+    justify-content: center
+}
+
+.card-3 .row {
+    justify-content: center
+}
+
+.row1 {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: white
+}
+.row2 .img-fluid {
+    margin: 10% 0;
+    opacity: 0.5;
+    width: 40%;
+    color:white
+}
+.row3 {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+    
+}
+.row4 {
+    font-size: 0.6rem;
+    color: white;
+    margin: 5% 0 2.5rem;
+}
+.row5 {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.temp {
+    font-size: 1.5rem;
+    color: rgb(57, 57, 58);
+}
+
+.location {
+    margin-bottom: 1.5rem;
+    font-size: .6rem;
+}
+
+.img-fluid {
+    float: right;
+    width: 65%;
+    display: flex;
+    align-items: center
+}
+
+
+
+.card-3 .row3 {
+    margin: 5% 0 2.5rem
+}
+
+
+.popover {
+    max-width: 500px !important;
+}
+
+

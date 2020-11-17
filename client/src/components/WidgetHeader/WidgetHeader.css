@@ -1,0 +1,17 @@
+.widget-header {
+    display: flex;
+    justify-content: space-between ;
+    margin-bottom: 30px;
+    background-color: #032541;
+    padding: 6px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+
+  .widget-link{
+      margin:auto;
+  }
+
+ 
+

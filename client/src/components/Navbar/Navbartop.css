@@ -1,0 +1,69 @@
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: white !important;
+}
+.top-nav-home-icon{
+    width:25px;
+    height:auto;
+}
+.top-nav-home2-icon{
+    width:25px;
+    height:auto;
+}
+.top-nav-home3-icon{
+    width:25px;
+    height:auto;
+}
+a.top-nav-icons.active{
+    color: white !important;
+    
+}
+
+a.top-nav-icons.nav-link {
+    -webkit-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    transition: background-color .5s ease-out;
+}
+
+a.top-nav-icons.nav-link:hover {
+    background-color: #F0F0F0;
+    /* opacity: 0.3; */
+  
+}
+
+
+
+
+
+.top-nav-icons{
+    margin-right:5px;
+    margin-left:5px;
+    padding-right:2rem !important; 
+     padding-left:2rem !important;
+}
+
+.tooltip-css {
+    opacity: 0.7;
+}
+
+
+ 
+    .covid-19 {
+        color: red !important;
+        background-color: yellow;
+        text-decoration: none;
+      }
+      
+      /* .covid-19:visited {
+        color: pink;
+        background-color: transparent;
+        text-decoration: none;
+      } */
+      
+      .covid-19:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      
+      

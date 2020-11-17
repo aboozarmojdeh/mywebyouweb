@@ -1,0 +1,1 @@
+export const LnewsApi='e475470669e941e2aeb54250afe1ac87';

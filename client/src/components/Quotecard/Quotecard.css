@@ -1,0 +1,15 @@
+.header-bg{
+    background-color: #209CEE !important;
+    color:rgb(240, 239, 239);
+    text-align:center;
+    height:30px;
+   
+}
+
+.card-header{
+    padding: .2rem !important;
+}
+
+.card-body{
+    padding: .5rem !important;
+}
