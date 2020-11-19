@@ -1,9 +1,10 @@
 import React from "react";
-
+import QuestionInput from '../QuestionInput/QuestionInput';
 const Home2=()=>{
     return(
-        <div>
-                <h1>Hello Home2 Page</h1>
+        <div className='container'>
+                {/* <h1>Hello Home2 Page</h1> */}
+                <QuestionInput />
             </div>
     )
 }

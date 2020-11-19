@@ -10,7 +10,7 @@ CREATE TABLE users (
 
 CREATE TABLE questions (
     question_id SERIAL PRIMARY KEY,
-    email text NOT NULL,
+    email text,
     question VARCHAR(255),
     answer VARCHAR(255),
     answered_date TIMESTAMPTZ NOT NULL DEFAULT NOW() 
